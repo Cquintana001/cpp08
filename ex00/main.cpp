@@ -13,7 +13,6 @@ int main( int ac, char ** av )
 
     std::vector< int >      vect( arr, arr + sizeof(arr) / sizeof(arr[0]));
     std::list< int >        list( arr, arr + sizeof(arr) / sizeof(arr[0]));
-
     easyfind< std::vector<int> >( vect, std::atoi( av[1] ));  // explicit instantiation
     easyfind< std::list<int> >( list, std::atoi( av[1] ));  // explicit instantiation
 

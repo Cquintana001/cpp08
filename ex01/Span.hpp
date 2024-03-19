@@ -3,6 +3,9 @@
 #include <iostream>
 #include <list>
 #include <exception>
+#include <algorithm>
+#include <iostream>
+#include <cstdlib>
 
 class Span
 {
@@ -12,7 +15,7 @@ private:
 
     Span( void );
 
-public:
+public: 
     Span( unsigned int i);
     Span( const Span& obj);
     ~Span( void );
