@@ -3,7 +3,7 @@
 
 int main( void )
 {
-    std::cout << "---- TEST CON 5 NÚMEROS -----" << std::endl;
+    std::cout << "---- TEST WITH 5 NUMBERS -----" << std::endl;
 
     Span sp = Span(5);
 
